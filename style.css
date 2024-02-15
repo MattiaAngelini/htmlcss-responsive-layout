@@ -12,6 +12,12 @@ ul {
     list-style: none;
 }
 
+body  {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 /*-------------------
      UTILITIES
 -------------------*/
@@ -36,28 +42,44 @@ ul {
     color: white;
 }
 
-/*----------------------
- PADD - MARG  UTILITIES
------------------------*/
+.border_none {
+    border: none;
+}
+
+/*------------------------------
+   PADDING - MARGIN - UTILITIES
+--------------------------------*/
 
 .pad_20 {
     padding: 20px;
 }
 
-.marg_left_20  {
-    margin-left: 20px;
+.pad_10 {
+    padding: 10px;
+}
+
+.marg_20 {
+    margin: 20px;
 }
 
 /*-------------------
        BUTTONS
 -------------------*/
 
-
-
+.btn_standard {
+    border-radius: 30px;
+    margin: 20px 0;
+    padding: 10px;
+}
 
 /*-------------------
     GRID LAYOUT
 -------------------*/
+
+.container_big {
+    width: 1200px;
+    margin: auto;
+}
 
 .col_33 {width: calc(100% / 3);}
 
@@ -70,6 +92,20 @@ header {
     position: sticky;
     top: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*-------------------
