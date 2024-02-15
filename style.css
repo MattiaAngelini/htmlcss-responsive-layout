@@ -85,6 +85,10 @@ body  {
 .text_center {
     text-align: center;
 }
+
+.inline_block {
+    display: inline-block;
+}
 /*------------------------------
       LAYOUT - UTILITIES
 --------------------------------*/
@@ -105,6 +109,10 @@ body  {
     padding-left: 20px;
 }
 
+.pad_right_20 {
+    padding-right: 20px;
+}
+
 .marg_20 {
     margin: 20px;
 }
@@ -120,9 +128,16 @@ body  {
 .marg_left_0 {
     margin-left: 0;
 }
+.marg_left_20 {
+    margin-left:20px;
+}
 
 .marg_right_10 {
     margin-right: 10px;
+}
+
+.marg_right_20 {
+    margin-right: 20px;
 }
 
 .height_100 {
@@ -166,7 +181,7 @@ body  {
 -------------------*/
 
 .container_big {
-    width: 80%;
+    width: 1200px;
     margin: auto;
 }
 
@@ -216,7 +231,7 @@ header {
 .section_intro button {
     background-color: #0084fd;
     color: white;
-    width: 50%;
+    width: 70%;
 }
 
 /*-------------------
@@ -228,22 +243,48 @@ header {
     MEDIA QUERIES
 -------------------*/
 
- @media screen and (max-width: 992px){
+@media screen and (max-width: 992px){
+    /*----HEADER QUERY----*/
     .container_big {
-    width: 80%;  
+    max-width: 100%;  
     }
-    .container_big ul {
+    
+    header .container_big {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    header .container_big ul {
     display: none;
-}
- 
-.fa-bars::before {
-    display: flex !important; 
-    align-items: center;
-    line-height: 80px;
-    font-size: 24px;
     }
 
+    header 
+    .fa-bars::before {
+        display: flex !important; 
+        align-items: center;
+        line-height: 80px;
+        font-size: 24px;
+    }
+
+    /*----INTRO QUERY----*/
+
+    .section_intro .container_elements {
+        display: inline-block;
+    }
+    .section_intro figure img{
+        width: 60%;      
+    }
+
+    /*----QUERY INTRO----*/
+ 
  @media screen and (max-width: 768px){
+    /*----INTRO----*/
+   
+  
+   }
+   .container_big {
+    max-width: 100%;
+  }
  
   }
- }
+ 
