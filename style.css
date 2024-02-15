@@ -95,19 +95,6 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-------------------
         MAIN
 -------------------*/
@@ -115,3 +102,19 @@ header {
 /*-------------------
        FOOTER
 -------------------*/
+
+
+/*-------------------
+    MEDIA QUERIES
+-------------------*/
+
+ @media screen and (max-width: 992px){
+     .container_big {
+       width: 100%;
+     }
+ }
+
+ 
+ @media screen and (max-width: 768px){
+   
+ }
