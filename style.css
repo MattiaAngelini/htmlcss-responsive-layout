@@ -105,6 +105,10 @@ body  {
     margin-top: 20px;
 }
 
+.marg_left_0 {
+    margin-left: 0;
+}
+
 .height_100 {
     height: 100%;
 }
@@ -182,7 +186,7 @@ header {
 
 .fa-bars::before {
     display: none !important;
-  }
+}
 
 /*-------------------
         MAIN
