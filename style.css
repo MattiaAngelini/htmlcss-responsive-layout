@@ -30,6 +30,10 @@ body  {
     flex-wrap: wrap;
 }
 
+.column {
+    flex-direction: column;
+}
+
 .align_center {
     align-items: center;
 }
@@ -51,7 +55,7 @@ body  {
 }
 
 /*------------------------------
-   PADDING - MARGIN - UTILITIES
+      LAYOUT - UTILITIES
 --------------------------------*/
 
 .pad_20 {
@@ -64,6 +68,18 @@ body  {
 
 .marg_20 {
     margin: 20px;
+}
+
+.marg_top_30 {
+    margin-top: 30px;
+}
+
+.height_100 {
+    height: 100%;
+}
+
+.width_100 {
+    width: 100%;
 }
 
 /*-------------------
@@ -85,9 +101,30 @@ body  {
     margin: auto;
 }
 
-.col_33 {width: calc(100% / 3);}
+.col_33 {
+    width: calc(100% / 3);
+}
 
-.col_66 {width: calc((100% /3) * 2);}
+.col_50 {
+    width: 50%;
+}
+
+.col_66 {
+    width: calc((100% /3) * 2);
+}
+
+
+/*-------------------
+        CARDS
+-------------------*/
+
+.card {
+    border-radius: ;
+    line-height: ;
+    background-color: #b5ddff;
+}
+
+
 
 /*-------------------
       HEADER
@@ -107,9 +144,11 @@ header {
         MAIN
 -------------------*/
 
+
 /*-------------------
-        CARDS
+       INTRO
 -------------------*/
+
 
 /*-------------------
        FOOTER
