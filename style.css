@@ -34,6 +34,14 @@ body  {
     flex-direction: column;
 }
 
+.jstfy_content_cntr  {
+    justify-content: center;
+}
+
+.align_end{
+    align-items: end; 
+}
+
 .align_center {
     align-items: center;
 }
@@ -50,10 +58,6 @@ body  {
     color: white;
 }
 
-.border_none {
-    border: none;
-}
-
 .relative_pos {
     position: relative;
 }
@@ -66,6 +70,13 @@ body  {
     top: 40px;
 }
 
+.color_lightblue {
+    color:#0084fd
+}
+
+.text_center {
+    text-align: center;
+}
 /*------------------------------
       LAYOUT - UTILITIES
 --------------------------------*/
@@ -76,6 +87,14 @@ body  {
 
 .pad_10 {
     padding: 10px;
+}
+
+.pad_top_20 {
+    padding-top: 20px;
+   
+}
+.pad_left_20 {
+    padding-left: 20px;
 }
 
 .marg_20 {
@@ -90,13 +109,16 @@ body  {
     height: 100%;
 }
 
+.height_50 {
+    height: 50%;
+}
+
 .width_100 {
     width: 100%;
 }
 
 .width_50 {
     width: 50%;
-
 }
 
 .gap_20 {
@@ -116,6 +138,7 @@ body  {
     border-radius: 30px;
     margin: 20px 0;
     padding: 10px;
+    border: none;
 }
 
 /*-------------------
@@ -138,7 +161,6 @@ body  {
 .col_66 {
     width: calc((100% /3) * 2);
 }
-
 
 /*-------------------
         CARDS
@@ -166,18 +188,15 @@ header {
         MAIN
 -------------------*/
 
-
 /*-------------------
        INTRO
 -------------------*/
 
-.section_intro img {
-    left: 100px;
-  }
+.section_intro button {
+    background-color: #0084fd;
+    color: white;
 
- 
- 
-
+}
 
 /*-------------------
        FOOTER
