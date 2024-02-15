@@ -54,6 +54,18 @@ body  {
     border: none;
 }
 
+.relative_pos {
+    position: relative;
+}
+
+.left_100 {
+    left: 100px;
+}
+
+.top_40 {
+    top: 40px;
+}
+
 /*------------------------------
       LAYOUT - UTILITIES
 --------------------------------*/
@@ -70,8 +82,8 @@ body  {
     margin: 20px;
 }
 
-.marg_top_30 {
-    margin-top: 30px;
+.marg_top_20 {
+    margin-top: 20px;
 }
 
 .height_100 {
@@ -81,6 +93,20 @@ body  {
 .width_100 {
     width: 100%;
 }
+
+.width_50 {
+    width: 50%;
+
+}
+
+.gap_20 {
+    gap:20px;
+}
+
+.border_rad_50 {
+    border-radius: 10px;
+}
+
 
 /*-------------------
        BUTTONS
@@ -118,13 +144,9 @@ body  {
         CARDS
 -------------------*/
 
-.card {
-    border-radius: ;
-    line-height: ;
+.card {  
     background-color: #b5ddff;
 }
-
-
 
 /*-------------------
       HEADER
@@ -148,6 +170,13 @@ header {
 /*-------------------
        INTRO
 -------------------*/
+
+.section_intro img {
+    left: 100px;
+  }
+
+ 
+ 
 
 
 /*-------------------
