@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
 /*-------------------
      UTILITIES
 -------------------*/
@@ -15,6 +19,41 @@
 .flex {
     display:flex
 }
+
+.align_center {
+    align-items: center;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.space_evenly {
+    justify-content: space-evenly;
+}
+
+.white_text {
+    color: white;
+}
+
+/*----------------------
+ PADD - MARG  UTILITIES
+-----------------------*/
+
+.pad_20 {
+    padding: 20px;
+}
+
+.marg_left_20  {
+    margin-left: 20px;
+}
+
+/*-------------------
+       BUTTONS
+-------------------*/
+
+
+
 
 /*-------------------
     GRID LAYOUT
@@ -25,6 +64,13 @@
 /*-------------------
       HEADER
 -------------------*/
+
+header {
+    background-color: #0084fd ;
+    position: sticky;
+    top: 0;
+}
+
 
 /*-------------------
         MAIN
