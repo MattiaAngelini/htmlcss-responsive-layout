@@ -16,7 +16,7 @@ body  {
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
 /*-------------------
      UTILITIES
@@ -74,13 +74,20 @@ body  {
     position: relative;
 }
 
-
 .color_lightblue {
-    color:#0084fd
+    color:#0084fd;
+}
+
+.background_lightblue {
+    background-color:#0084fd;
 }
 
 .background_purple {
     background-color: #9792e4;
+}
+
+.background_sky {
+    background-color: #b5ddff;
 }
 
 .background_white {
@@ -91,9 +98,14 @@ body  {
     text-align: center;
 }
 
+.text_start {
+    text-align: start;
+}
+
 .inline_block {
     display: inline-block;
 }
+
 /*------------------------------
       LAYOUT - UTILITIES
 --------------------------------*/
@@ -148,10 +160,17 @@ body  {
     margin-top: 50px;
 }
 
+.marg_top_100 {
+    margin-top: 100px;
+}
+
+.marg_top_150 {
+    margin-top: 150px;
+}
+
 .marg_top_200 {
     margin-top: 200px;
 }
-
 
 .marg_bot_20 {
     margin-bottom: 20px;
@@ -160,14 +179,14 @@ body  {
 .marg_left_0 {
     margin-left: 0;
 }
+
 .marg_left_20 {
     margin-left:20px;
 }
 
-.marg_left_200 {
-    margin-left:200px;
+.marg_left_300 {
+    margin-left:300px;
 }
-
 
 .marg_right_10 {
     margin-right: 10px;
@@ -177,8 +196,9 @@ body  {
     margin-right: 20px;
 }
 
-.marg_right_200 {
-    margin-right: 200px;
+
+.marg_right_300 {
+    margin-right: 300px;
 }
 
 .height_100 {
@@ -191,6 +211,10 @@ body  {
 
 .width_100 {
     width: 100%;
+}
+
+.width_80 {
+    width: 80%;
 }
 
 .width_50 {
@@ -209,17 +233,8 @@ body  {
     border-radius: 50px;
 }
 
-
-
-/*-------------------
-       BUTTONS
--------------------*/
-
-.btn_standard {
-    border-radius: 30px;
-    margin: 20px 0;
-    padding: 10px;
-    border: none;
+.border_rad_100 {
+    border-radius: 100%;
 }
 
 /*-------------------
@@ -243,21 +258,22 @@ body  {
     width: calc((100% /3) * 2);
 }
 
-
 /*-------------------
-        CARDS
+       BUTTONS
 -------------------*/
 
-.section_intro .card {  
-    background-color: #b5ddff;
+.btn_standard {
+    border-radius: 30px;
+    margin: 20px 0;
+    padding: 10px;
+    border: none;
 }
 
 /*-------------------
       HEADER
 -------------------*/
 
-header {
-    background-color: #0084fd ;
+header { 
     position: sticky;
     top: 0;
 }
@@ -272,23 +288,6 @@ header {
        INTRO
 -------------------*/
 
-.section_intro button {
-    background-color: #0084fd;
-    color: white;
-    width: 70%;
-}
-/*-------------------
-      PLANNING
--------------------*/
-
-
-.section_planning figure img {
-    width: 50%;
-}
-
-
-
-
 /*-------------------
        FOOTER
 -------------------*/
@@ -299,7 +298,8 @@ header {
 -------------------*/
 
 @media screen and (max-width: 992px){
-    /*----HEADER QUERY----*/
+   
+    /*----HEADER----*/
     
     .container_big {
     max-width: 100%;  
@@ -322,13 +322,38 @@ header {
         font-size: 24px;
     }
 
+    /*----INTRO----*/
+
     .section_intro .container_elements {
         display: inline-block;
     }
     .section_intro figure img{
         width: 40%;    
-
     }
+
+     /*----PLANNING----*/
+
+    .section_planning .container_big {
+        display: inline-block;
+    }
+
+    .section_planning .card {
+        margin: 0;
+    }
+
+    .section_planning img {
+        width: 100%;
+    }
+    
+    .section_planning img {
+        width: 100%;
+    }
+
+    .section_planning h3.marg_top_150 {
+        margin-top: 50px;
+        font-size: 2.5rem;
+    }
+
 }
 
  @media screen and (max-width: 768px){
@@ -348,7 +373,7 @@ header {
     }
 
     .section_intro .card {
-        margin-bottom: 30px;  
+        margin-top: 30px;  
     }
 
     .section_intro figure{
