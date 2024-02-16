@@ -199,7 +199,7 @@ body  {
         CARDS
 -------------------*/
 
-.card {  
+.section_intro .card {  
     background-color: #b5ddff;
 }
 
@@ -268,7 +268,7 @@ header {
         display: inline-block;
     }
     .section_intro figure img{
-        width: 50%;    
+        width: 40%;    
 
     }
 }
