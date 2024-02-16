@@ -26,6 +26,11 @@ body  {
     line-height: 26px;
 }
 
+
+.font_sz_40 {
+    font-size: 40px;
+}
+
 .font_sz_50 {
     font-size: 50px;
 }
@@ -110,6 +115,10 @@ body  {
     display: inline-block;
 }
 
+.circle_img {
+    clip-path: circle();
+}
+
 /*------------------------------
       LAYOUT - UTILITIES
 --------------------------------*/
@@ -184,8 +193,8 @@ body  {
     margin-bottom: 50px;
 }
 
-.marg_left_0 {
-    margin-left: 0;
+.marg_left_10 {
+    margin-left: 10px;
 }
 
 .marg_left_20 {
