@@ -30,6 +30,10 @@ body  {
     font-size: 50px;
 }
 
+.block {
+    display: block;
+}
+
 .flex {
     display:flex
 }
@@ -267,13 +271,12 @@ header {
         width: 50%;    
 
     }
+}
 
- 
  @media screen and (max-width: 768px){
     
     /*----INTRO----*/
   
-    
    .container_big {
     max-width: 100%;
     }
@@ -291,10 +294,11 @@ header {
     }
 
     .section_intro figure{
-        display: flex;
+        display: block;
         justify-content: center;
-       
     }
-  
-  }
- 
+
+    .section_intro .row.marg_top_20 {
+        margin-top: 0;       
+    }
+ }
