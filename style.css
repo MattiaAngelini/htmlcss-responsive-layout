@@ -70,13 +70,6 @@ body  {
     position: relative;
 }
 
-.left_100 {
-    left: 100px;
-}
-
-.top_40 {
-    top: 40px;
-}
 
 .color_lightblue {
     color:#0084fd
@@ -245,6 +238,7 @@ header {
 
 @media screen and (max-width: 992px){
     /*----HEADER QUERY----*/
+    
     .container_big {
     max-width: 100%;  
     }
@@ -266,8 +260,6 @@ header {
         font-size: 24px;
     }
 
-    /*----INTRO QUERY----*/
-
     .section_intro .container_elements {
         display: inline-block;
     }
@@ -275,16 +267,23 @@ header {
         width: 60%;      
     }
 
-    /*----QUERY INTRO----*/
  
  @media screen and (max-width: 768px){
+    
     /*----INTRO----*/
-   
   
-   }
+    }
    .container_big {
     max-width: 100%;
-  }
- 
+    }
+
+   .section_intro .flex {
+    display: inline-block;
+    }
+
+    .section_intro .col_33, .col_66 {
+        width: 100%;
+    }
+  
   }
  
