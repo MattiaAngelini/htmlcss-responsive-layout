@@ -264,7 +264,8 @@ header {
         display: inline-block;
     }
     .section_intro figure img{
-        width: 60%;      
+        width: 50%;    
+
     }
 
  
@@ -272,7 +273,7 @@ header {
     
     /*----INTRO----*/
   
-    }
+    
    .container_big {
     max-width: 100%;
     }
@@ -283,6 +284,16 @@ header {
 
     .section_intro .col_33, .col_66 {
         width: 100%;
+    }
+
+    .section_intro .card {
+        margin-bottom: 30px;  
+    }
+
+    .section_intro figure{
+        display: flex;
+        justify-content: center;
+       
     }
   
   }
