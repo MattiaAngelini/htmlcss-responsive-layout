@@ -22,18 +22,6 @@ body  {
      UTILITIES
 -------------------*/
 
-.line_height_26 {
-    line-height: 26px;
-}
-
-
-.font_sz_40 {
-    font-size: 40px;
-}
-
-.font_sz_50 {
-    font-size: 50px;
-}
 
 .block {
     display: block;
@@ -79,6 +67,19 @@ body  {
     position: relative;
 }
 
+
+.inline_block {
+    display: inline-block;
+}
+
+.circle_img {
+    clip-path: circle();
+}
+
+/*------------------------------
+    FONT/COLORS - UTILITIES
+-------------------------------*/
+
 .color_lightblue {
     color:#0084fd;
 }
@@ -111,13 +112,22 @@ body  {
     text-align: start;
 }
 
-.inline_block {
-    display: inline-block;
+.line_height_26 {
+    line-height: 26px;
 }
 
-.circle_img {
-    clip-path: circle();
+.font_sz_30 {
+    font-size: 30px;
 }
+
+.font_sz_40 {
+    font-size: 40px;
+}
+
+.font_sz_50 {
+    font-size: 50px;
+}
+
 
 /*------------------------------
       LAYOUT - UTILITIES
@@ -132,6 +142,10 @@ body  {
 
 .pad_10 {
     padding: 10px;
+}
+
+.pad_50{
+    padding: 50px;
 }
 
 .pad_top_20 {
@@ -280,7 +294,7 @@ body  {
 }
 
 .col_66 {
-    width: calc((100% /3) * 2);
+    width: calc(100% - (100% / 3));
 }
 
 .col_80 {
@@ -310,17 +324,6 @@ header {
 .fa-bars::before {
     display: none !important;
 }
-
-/*------- MAIN-------*/
-
-/*-------------------
-       INTRO
--------------------*/
-
-/*-------------------
-       FOOTER
--------------------*/
-
 
 /*-------------------
     MEDIA QUERIES
@@ -382,6 +385,17 @@ header {
         margin-top: 50px;
         font-size: 2.5rem;
     }
+
+     /*----PARTNERS----*/
+
+
+
+
+
+
+
+
+
 
 }
 
