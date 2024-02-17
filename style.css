@@ -75,40 +75,9 @@ body  {
 }
 
 /*------------------------------
-    FONT/COLORS - UTILITIES
+    FONTS/COLORS - UTILITIES
 -------------------------------*/
 
-.color_white {
-    color: white;
-}
-
-.color_lightblue {
-    color:#0084fd;
-}
-
-.color_purple {
-    color: #9792e4;
-}
-
-.color_black {
-    color: black;
-}
-
-.background_lightblue {
-    background-color:#0084fd;
-}
-
-.background_purple {
-    background-color: #9792e4;
-}
-
-.background_sky {
-    background-color: #b5ddff;
-}
-
-.background_white {
-    background-color: white;
-}
 
 .text_center {
     text-align: center;
@@ -146,6 +115,50 @@ body  {
     font-size: 50px;
 }
 
+.opacity_04 {
+    opacity: 0.4;
+}
+
+.font_weight_100 {
+    font-weight: 100;
+}
+
+.color_white {
+    color: white;
+}
+
+.color_lightblue {
+    color:#0084fd;
+}
+
+.color_purple {
+    color: #9792e4;
+}
+
+.color_black {
+    color: black;
+}
+
+.color_senape {
+    color: #fdc15f;
+}
+
+.background_lightblue {
+    background-color:#0084fd;
+}
+
+.background_purple {
+    background-color: #9792e4;
+}
+
+.background_sky {
+    background-color: #b5ddff;
+}
+
+.background_white {
+    background-color: white;
+}
+
 /*------------------------------
       LAYOUT - UTILITIES
 --------------------------------*/
@@ -168,6 +181,10 @@ body  {
 
 .pad_top_20 {
     padding-top: 20px;
+}
+
+.pad_top_50 {
+    padding-top: 50px;
 }
 
 .pad_bot_20 {
@@ -282,6 +299,10 @@ body  {
     width: 50%;
 }
 
+.width_30 {
+    width: 30%;
+}
+
 
 .gap_10 {
     gap: 20px;
@@ -317,6 +338,11 @@ body  {
 
 .container_big {
     width: 1200px;
+    margin: auto;
+}
+
+.container_small {
+    width: 800px;
     margin: auto;
 }
 
@@ -358,6 +384,14 @@ body  {
     border: none; 
     padding: 10px;
 }
+
+.btn_big {
+    border-radius: 30px;
+    margin: 20px 0;
+    border: none; 
+    padding: 20px;
+}
+
 
 /*-------------------
       HEADER
@@ -487,6 +521,12 @@ header {
 
     .section_about_us .col_70, .col_30{
         width: 100%;
+    }
+
+    /*---GET STARTED---*/
+
+    .section_get_started .container_small {
+        max-width: 100%;
     }
 
  }
