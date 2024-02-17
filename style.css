@@ -22,9 +22,12 @@ body  {
      UTILITIES
 -------------------*/
 
-
 .block {
     display: block;
+}
+
+.inline_block {
+    display: inline-block;
 }
 
 .flex {
@@ -59,17 +62,8 @@ body  {
     justify-content: space-evenly;
 }
 
-.color_white {
-    color: white;
-}
-
 .relative_pos {
     position: relative;
-}
-
-
-.inline_block {
-    display: inline-block;
 }
 
 .circle_img {
@@ -80,12 +74,20 @@ body  {
     FONT/COLORS - UTILITIES
 -------------------------------*/
 
+.color_white {
+    color: white;
+}
+
 .color_lightblue {
     color:#0084fd;
 }
 
 .color_purple {
     color: #9792e4;
+}
+
+.color_black {
+    color: black;
 }
 
 .background_lightblue {
@@ -128,10 +130,10 @@ body  {
     font-size: 50px;
 }
 
-
 /*------------------------------
       LAYOUT - UTILITIES
 --------------------------------*/
+
 .pad_100{
     padding: 100px;
 }
@@ -251,6 +253,10 @@ body  {
     width: 50%;
 }
 
+.gap_10 {
+    gap: 20px;
+}
+
 .gap_20 {
     gap:20px;
 }
@@ -271,7 +277,6 @@ body  {
     border-radius: 100%;
 }
 
-
 /*-------------------
     GRID LAYOUT
 -------------------*/
@@ -283,6 +288,10 @@ body  {
 
 .col_20 {
     width: 20%;
+}
+
+.col_30 {
+    width: 30%;
 }
 
 .col_33 {
@@ -319,6 +328,7 @@ body  {
 header { 
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 .fa-bars::before {
@@ -386,16 +396,12 @@ header {
         font-size: 2.5rem;
     }
 
-     /*----PARTNERS----*/
-
-
-
-
-
-
-
-
-
+    /*----WORKING WITH US----*/
+   
+    .sect_work_with_us .col_30 {
+        width: 46%;       
+        background-color: white;
+    }
 
 }
 
@@ -404,11 +410,11 @@ header {
     /*----INTRO----*/
   
    .container_big {
-    max-width: 100%;
+        max-width: 100%;
     }
 
    .section_intro .flex {
-    display: inline-block;
+        display: inline-block;
     }
 
     .section_intro .col_33, .col_66 {
@@ -427,4 +433,12 @@ header {
     .section_intro .row.marg_top_20 {
         margin-top: 0;       
     }
+
+       /*----WORKING WITH US----*/
+   
+    .sect_work_with_us .col_30 {
+        width: 90%;       
+        background-color: white;
+    }
+
  }
