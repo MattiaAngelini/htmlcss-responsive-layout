@@ -33,7 +33,7 @@
             <li class="flex align_center marg_20">Testimonials</li>
             <li class="flex align_center marg_20">Features</li>
             <li class="flex align_center marg_20">About Us</li>
-            <button class="btn_standard"> Get Started </button>       
+            <button class="btn_standard font_weight_700"> Get Started </button>       
         </ul>
     
         </div>
@@ -49,11 +49,12 @@
 
         <div class="container_big pad_left_20 pad_right_20">
 
-            <!------FIRST-ROW------>
+            <!------ FIRST-ROW ------>
 
             <div class=".row flex gap_20">
-        
-                <div class="col_66 border_rad_10 pad_left_20 pad_top_20 background_sky">
+                
+                <!---- COL_66 - BIG CARD ---->
+                <div class="col_66 border_rad_10 pad_20 pad_bot_0 background_sky">
                     <h3 class="color_lightblue marg_bot_20">Get a demo application</h2>   
 
                     <div class="flex container_elements"> 
@@ -64,12 +65,13 @@
                         </div>   
 
                         <figure>
-                            <img class="width_100 block" src="./img/phone.png" alt="">
+                            <img id="intro_pic_mobile" class="width_100 block" src="./img/phone.png" alt="">
                         </figure>
                     </div>
 
                 </div>
-               
+                
+                <!---- COL_33 CARD ---->
                 <div class="col_33 text_center">
                     <div class="card height_100  border_rad_10 pad_20 background_sky">
                         <i class="font_sz_50 fa-solid fa-file-code color_lightblue"></i>
@@ -83,7 +85,8 @@
            <!------SECOND-ROW------>
 
             <div class="row flex marg_top_20 gap_20 text_center"> 
-
+                
+                <!---- COL_33 CARD ---->
                 <div class="col_33">
                     <div class="card border_rad_10 pad_20 background_sky">
                         <i class="font_sz_50 fa-solid fa-compass-drafting color_lightblue"></i>
@@ -92,7 +95,8 @@
                         
                     </div>
                 </div>
-
+                
+                <!---- COL_33 CARD ---->
                 <div class="col_33">
                     <div class="card border_rad_10 pad_20 background_sky">
                         <i class="font_sz_50 fa-solid fa-laptop-code color_lightblue"></i>
@@ -101,7 +105,8 @@
                         
                     </div>
                 </div>
-
+                
+                <!---- COL_33 CARD ---->
                 <div class="col_33">
                     <div class="card border_rad_10 pad_20 background_sky">
                         <i class="font_sz_50 fa-solid fa-bullhorn color_lightblue "></i>
@@ -119,23 +124,25 @@
     <!------------- PLANNING ------------->
 
     <section class="section_planning background_purple marg_bot_20 pad_top_20 pad_bot_20">
-
+             
         <div class="container_big flex pad_left_20 pad_right_20 align_end">
-
-            <div class="card text_start color_white marg_top_50 marg_left_300 pad_right_20 ">                          
+           
+            <!----LEFT COL---->
+            <div class="card text_start color_white marg_top_50 marg_left_200 pad_right_20 ">                          
                     <figure>
                         <img class="width_100" src="./img/planning1.png" alt="">
                     </figure>
-                    <h3 class="marg_top_150 marg_bot_20">Strategic planning</h3>
-                    <p class="line_height_26 marg_bot_20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates exercitationem voluptatem quisquam nihil illum omnis, nesciunt, quidem qui quis fugiat.</p>                     
+                    <h3 class=" marg_top_150 marg_bot_20">Strategic planning</h3>
+                    <p class="line_height_26 marg_bot_50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates exercitationem voluptatem quisquam nihil illum omnis, nesciunt, quidem qui quis fugiat.</p>                     
             </div>
 
-            <div class="card background_white border_rad_50 text_center marg_top_150 marg_right_300 marg_left_20 pad_20">
+            <!---RIGHT COL---->
+            <div class="card background_white border_rad_50 text_center marg_top_150 marg_bot_50 marg_right_200 marg_left_20 pad_20">
                 <figure>
-                    <img class="width_80" src="./img/planning2.png" alt="">
+                    <img class="width_100" src="./img/planning2.png" alt="">
                 </figure>
                 <h3 class="pad_20">App Development</h3>
-                <p class="line_height_26">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maiores suscipit beatae quo, rem laboriosam doloremque voluptatem cumque vitae tempora iusto at labore. </p>
+                <p class="line_height_26">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore maiores suscipit beatae quo.. </p>
                 <i class="fa-solid fa-arrow-down marg_top_20 pad_10 border_rad_100 background_purple"></i>
             </div>
 
@@ -150,41 +157,44 @@
         <div class="container_big">
 
             <div class="text_center">
-                <h4>Testimonials</h4>
-                <h1 class="color_purple pad_20 font_sz_40">We are commited expert partners</h1>
+                <h4 class="font_weight_100">TESTIMONIALS</h4>
+                <h1 class="color_purple pad_20 font_sz_30">We are commited expert partners</h1>
                 <p class="marg_bot_50 line_height_26">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ut ab ipsam porro dolorem cupiditate cumque, eaque est eos perspiciatis fuga velit asperiores a corrupti. Nisi at saepe ex magnam.</p>
 
             </div>
-          
-            <div class="card flex marg_bot_20 background_purple color_white border_rad_30 pad_20 marg_left_20 marg_right_20">
-                <div class="col_20">
-                    <figure><img class="width_100 circle_img" src="./img/testimonial1.jpg" alt=""></figure>
+
+            <!----CARD 1---->
+            <div class="card flex marg_bot_20 background_purple color_white border_rad_30 marg_left_20 marg_right_20 pad_20">
+                <div class="col_30">
+                    <figure><img class="width_80 circle_img " src="./img/testimonial1.jpg" alt=""></figure>
                     </div>
-                <div class="col_80 marg_top_50">
-                    <p class="line_height_26"><i class="fa-solid fa-quote-left marg_right_10"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis illum vel non aspernatur enim, at molestias recusandae! Mollitia autem quam id dignissimos nam vero consequuntur ad iste molestias. Eum, optio?<i class="fa-solid fa-quote-left marg_left_10"></i></p>
-                    <h3 class="marg_top_20">Nat Reynolds</h2>
+                <div class="col_70 flex column jstfy_content_cntr">
+                    <p class="line_height_26"><i class="fa-solid fa-quote-left marg_right_10"></i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ut ab ipsam porro dolorem cupiditate cumque, eaque est eos perspiciatis fuga velit asperiores a corrupti. Nisi at saepe ex magnam.<i class="fa-solid fa-quote-left marg_left_10"></i></p>
+                    <h3 class="pad_bot_20 pad_top_20">Nat Reynolds</h2>
                 </div>
             </div>
-
-            <div class="card flex marg_bot_20 background_purple color_white border_rad_30 pad_20 marg_left_20 marg_right_20">
-                <div class="col_20">
-                    <figure><img class="width_100 circle_img" src="./img/testimonial2.jpg" alt=""></figure>
+            
+            <!----CARD 2---->
+            <div class="card flex marg_bot_20 background_purple color_white border_rad_30 marg_left_20 marg_right_20 pad_20">
+                <div class="col_30">
+                    <figure><img class="width_80 circle_img " src="./img/testimonial2.jpg" alt=""></figure>
                     </div>
-                <div class="col_80  marg_top_50">
-                    <p class="line_height_26"><i class="fa-solid fa-quote-left marg_right_10"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde recusandae eveniet, velit, accusantium perferendis quibusdam dolor alias assumenda veritatis consequuntur culpa laudantium! Provident dolorem placeat nobis animi minima, incidunt praesentium?<i class="fa-solid fa-quote-left marg_left_10"></i></p>
-                    <h3 class="marg_top_20">Celia Almeida</h2>
+                <div class="col_70 flex column jstfy_content_cntr">
+                    <p class="line_height_26"><i class="fa-solid fa-quote-left marg_right_10"></i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ut ab ipsam porro dolorem cupiditate cumque, eaque est eos perspiciatis fuga velit asperiores a corrupti. Nisi at saepe ex magnam.<i class="fa-solid fa-quote-left marg_left_10"></i></p>
+                    <h3 class="pad_bot_20 pad_top_20">Valentina Schevchenko</h2>
                 </div>
             </div>
-
-            <div class="card flex marg_bot_20 background_purple color_white border_rad_30 pad_20 marg_left_20 marg_right_20">
-                <div class="col_20">
-                    <figure><img class="width_100 circle_img" src="./img/testimonial3.jpg" alt=""></figure>
+            
+            <!----CARD 3---->
+            <div class="card flex marg_bot_20 background_purple color_white border_rad_30 marg_left_20 marg_right_20 pad_20">
+                <div class="col_30">
+                    <figure><img class="width_80 circle_img " src="./img/testimonial3.jpg" alt=""></figure>
                     </div>
-                <div class="col_80  marg_top_50">
-                    <p class="line_height_26"><i class="fa-solid fa-quote-left marg_right_10"></i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa iure, totam, asperiores eum amet, laboriosam officiis natus impedit veniam placeat quibusdam expedita aspernatur. Recusandae eveniet repellat temporibus officiis mollitia ullam!<i class="fa-solid fa-quote-left marg_left_10"></i></p>
-                    <h3 class="marg_top_20">Jake Paul</h2>
+                <div class="col_70 flex column jstfy_content_cntr">
+                    <p class="line_height_26"><i class="fa-solid fa-quote-left marg_right_10"></i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ut ab ipsam porro dolorem cupiditate cumque, eaque est eos perspiciatis fuga velit asperiores a corrupti. Nisi at saepe ex magnam.<i class="fa-solid fa-quote-left marg_left_10"></i></p>
+                    <h3 class="pad_bot_20 pad_top_20">Jake Paul</h2>
                 </div>
-            </div> 
+            </div>
 
         </section>
 
@@ -192,12 +202,13 @@
 
         <section class="sect_work_with_us background_purple marg_top_50">
 
-            <h1 class="color_white font_sz_30 text_center pad_50">Benefits of working with us</h1>
+            <h1 class="color_white font_sz_40 text_center pad_50">Benefits of working with us</h1>
             
             <div class="container_big">
                 
                 <div class="row flex jstfy_content_cntr wrap gap_10 pad_bot_50">
-                    
+                   
+                    <!----CARDS---->
                     <div class="col_30 background_white color_purple border_rad_10 pad_20">
                         <h1 class="font_sz_50">01</h1>
                         <h2 class="marg_bot_20 marg_top_20">High Quality</h2>
@@ -251,9 +262,10 @@
         <section class="section_about_us marg_top_50 marg_left_50 marg_right_50">
             
             <div class="container_big flex gap_50">
-
+            
+            <!----LEFT COL---->
             <div class="col_70 flex column jstfy_content_cntr">              
-                <h1 class="font_sz_50 color_purple marg_bot_20">About us</h1>
+                <h1 id="big_title_mobile" class="font_sz_50 color_purple marg_bot_20">About us</h1>
                 <p class="line_height_40 marg_bot_50">Lorem ipsum dolor sit amet consectetur adipisicing elit. In consequatur fugit illum quia consequuntur, non voluptate possimus saepe illo quidem animi fuga amet sit error dignissimos maxime natus doloribus autem?
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem odit corporis facere ullam quidem quisquam quam. Obcaecati similique labore accusamus recusandae eos, placeat assumenda, laborum soluta, est quia suscipit autem!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fugit exercitationem suscipit mollitia. Optio officia, accusantium commodi labore fuga aperiam praesentium adipisci non quam maxime nobis magni porro molestiae vel?
@@ -264,7 +276,8 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem eaque et, quibusdam dolorum expedita placeat eos iusto reiciendis cum ex at neque pariatur eligendi velit ipsam fugiat! Excepturi, reprehenderit praesentium.
                 </p>
             </div>
-
+            
+            <!----RIGHT COL---->
             <div class="col_30">
 
                 <figure class="width_80 flex">                  
@@ -289,11 +302,11 @@
 
             <div class="container_small text_center color_white">
                 <h4 class="pad_top_50 opacity_04 font_weight_100 ">GET STARTED</h6>
-                <h3 class="font_sz_30 pad_10">Simple,Transparent Pricing</h3>
-                <h1 class="font_sz_50 color_senape pad_20">It's Free!</h1>
+                <h3 class="font_sz_40 pad_10">Simple,Transparent Pricing</h3>
+                <h1 class="font_sz_60 color_senape pad_20">It's Free!</h1>
                 <p class="line_height_26">We're still in beta and we will be for awhile.As we add more
                 functionality, we'll look into other plans with more controls.</p>
-                <button class="width_30 btn_big color_purple">Get Started</button>
+                <button class="width_60 btn_big color_purple">Get Started</button>
                 <h5 class="font_weight_100">Copyright 2021 Boolean - Classe XX - <a class="color_white" href="">Privacy Policy </a></h5>
             </div>
 

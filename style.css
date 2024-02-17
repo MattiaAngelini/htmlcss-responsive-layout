@@ -114,12 +114,20 @@ body  {
     font-size: 50px;
 }
 
+.font_sz_60 {
+    font-size: 60px;
+}
+
 .opacity_04 {
     opacity: 0.4;
 }
 
 .font_weight_100 {
     font-weight: 100;
+}
+
+.font_weight_700 {
+    font-weight: 700;
 }
 
 .color_white {
@@ -194,6 +202,10 @@ body  {
     padding-top: 50px;
 }
 
+.pad_bot_0 {
+    padding-bottom: 0;
+}
+
 .pad_bot_20 {
     padding-bottom: 20px;
 }
@@ -265,8 +277,8 @@ body  {
     margin-left:50px;
 }
 
-.marg_left_300 {
-    margin-left:300px;
+.marg_left_200 {
+    margin-left:200px;
 }
 
 .marg_right_10 {
@@ -281,32 +293,8 @@ body  {
     margin-right: 50px;
 }
 
-.marg_right_300 {
-    margin-right: 300px;
-}
-
-.height_100 {
-    height: 100%;
-}
-
-.height_50 {
-    height: 50%;
-}
-
-.width_100 {
-    width: 100%;
-}
-
-.width_80 {
-    width: 80%;
-}
-
-.width_50 {
-    width: 50%;
-}
-
-.width_30 {
-    width: 30%;
+.marg_right_200 {
+    margin-right: 200px;
 }
 
 .gap_10 {
@@ -335,6 +323,39 @@ body  {
 
 .border_rad_100 {
     border-radius: 100%;
+}
+
+/*------------------------------
+   HEIGHT - WIDTH (%) UTILITIES
+--------------------------------*/
+
+
+.height_100 {
+    height: 100%;
+}
+
+.height_50 {
+    height: 50%;
+}
+
+.width_100 {
+    width: 100%;
+}
+
+.width_80 {
+    width: 80%;
+}
+
+.width_60 {
+    width: 60%;
+}
+
+.width_50 {
+    width: 50%;
+}
+
+.width_30 {
+    width: 30%;
 }
 
 /*-------------------
@@ -377,6 +398,10 @@ body  {
 
 .col_80 {
     width: 80%;
+}
+
+.margin_auto {
+    margin: auto;
 }
 
 /*-------------------
@@ -449,7 +474,7 @@ header {
         width: 40%;    
     }
 
-     /*----PLANNING----*/
+    /*----PLANNING----*/
 
     .section_planning .container_big {
         display: inline-block;
@@ -457,6 +482,10 @@ header {
 
     .section_planning .card {
         margin: 0;
+    }
+
+    .section_planning h3:first-child {
+        font-size: 60px;
     }
 
     .section_planning img {
@@ -478,7 +507,6 @@ header {
         width: 46%;       
         background-color: white;
     }
-
 }
 
  @media screen and (max-width: 768px){
@@ -506,8 +534,20 @@ header {
         justify-content: center;
     }
 
-    .section_intro .row.marg_top_20 {
-        margin-top: 0;       
+    #intro_pic_mobile {
+        margin: auto;
+        width: 100%;
+    }
+
+    /*----PARTNERS----*/
+
+    .section_partners .card {
+        display: inline-block;
+        text-align: center;  
+    }
+
+    .section_partners .col_70 {
+        display: inline-block;     
     }
 
     /*----WORKING WITH US----*/
