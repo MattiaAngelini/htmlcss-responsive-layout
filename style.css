@@ -78,7 +78,6 @@ body  {
     FONTS/COLORS - UTILITIES
 -------------------------------*/
 
-
 .text_center {
     text-align: center;
 }
@@ -131,6 +130,10 @@ body  {
     color:#0084fd;
 }
 
+.color_blue_link {
+    color:#9792e4;
+}
+
 .color_purple {
     color: #9792e4;
 }
@@ -157,6 +160,10 @@ body  {
 
 .background_white {
     background-color: white;
+}
+
+.background_black {
+    background-color: #333333;
 }
 
 /*------------------------------
@@ -258,7 +265,6 @@ body  {
     margin-left:50px;
 }
 
-
 .marg_left_300 {
     margin-left:300px;
 }
@@ -303,7 +309,6 @@ body  {
     width: 30%;
 }
 
-
 .gap_10 {
     gap: 20px;
 }
@@ -342,7 +347,7 @@ body  {
 }
 
 .container_small {
-    width: 800px;
+    width: 600px;
     margin: auto;
 }
 
@@ -391,7 +396,6 @@ body  {
     border: none; 
     padding: 20px;
 }
-
 
 /*-------------------
       HEADER
@@ -526,6 +530,12 @@ header {
     /*---GET STARTED---*/
 
     .section_get_started .container_small {
+        max-width: 100%;
+    }
+
+    /*---- FOOTER ----*/
+
+    footer .container_small {
         max-width: 100%;
     }
 
